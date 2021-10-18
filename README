@@ -1,3 +1,14 @@
+Disclaimer
+----------
+This is a fork by alanxoc3 of the suckless tool "ii". I really just changed the
+prefix option to not force a directory with the host name.
+
+If you want to see the original "ii", go to the suckless homepage:
+https://tools.suckless.org/ii/
+
+You can checkout the git repo here:
+https://git.suckless.org/ii
+
 Abstract
 --------
 ii is a minimalistic FIFO and filesystem based IRC client.  It creates an irc

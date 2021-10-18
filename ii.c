@@ -834,7 +834,8 @@ main(int argc, char *argv[])
 	}
 #endif
 
-	r = snprintf(ircpath, sizeof(ircpath), "%s/%s", prefix, host);
+	r = snprintf(ircpath, sizeof(ircpath), "%s", prefix);
+
 	if (r < 0 || (size_t)r >= sizeof(ircpath)) {
 		fprintf(stderr, "%s: path to irc directory too long\n", argv0);
 		exit(1);
